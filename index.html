@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Utilities</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="heading">
+        <div class = "logo">
+            <img class = "logo-img" src="/resources/utilityLogo.png" alt="Logo" width="50" height="50">
+            <a href = "./index.html">Utilities</a>
+        </div>
+        <div class="options-nav">Base64Encoder/Decoder
+            <div class="contents">
+                <a href="./Base64Encode.html">Base64 Encode</a>
+                <a href="./Base64Decode.html">Base64 Decode</a>
+            </div>
+        </div>
+        <div class="options-nav">URLEncoder/Decoder
+            <div class="contents">
+                <a href="./urlencode.html">URL Encode</a>
+                <a href="./urldecode.html">URL Decode</a>
+            </div>
+        </div>
+        <div class="options-nav">Hash Generator
+            <div class="contents">
+                <a href="./md5.html">MD5 Hash Generator</a>
+                <a href="./SHA1HashGenerator.html">SHA-1 Hash Generator</a>
+                <a href="./SHA256HashGenerator.html">SHA-256 Hash Generator</a>
+                <a href="./SHA512HashGenerator.html">SHA-512 Hash Generator</a>
+            </div>
+        </div>
+    </header>
     
+    <main></br>
+        <div class="main-content">
+            <h2>Enter your text to be encoded</h2></br>
+            <div class="textarea-content">
+                <div class = "input-textarea">
+                    <div><textarea type="text" class = "input" rows="15" cols="60"></textarea></div>
+                    <div><input type="button" class="encoder" value="Encode"></div>
+                </div>
+                <div class="output-textarea">
+                    <div><textarea type="text" class="output" placeholder="Your results will appear here." rows="15" cols="60"></textarea></div>
+                    <div><input type="button" class="reset" value="Reset"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- </br>
+    </br>
+    <hr> -->
+
 </body>
 </html>

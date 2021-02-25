@@ -1,0 +1,136 @@
+.heading {
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 2px 2px rgb(0 0 0 / 10%), -1px -1px 2px rgb(0 0 0 / 8%);
+    align-items: center;
+    line-height: 45px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: aquamarine;
+}
+
+.logo {
+    position: fixed;
+    left: 4vw;
+    top: 0.5vw;
+    font-size: 30px;
+}
+
+.logo-img {
+    position: fixed;
+    left: 0.2vw;
+    top: 0.5vw;
+}
+
+.logo a {
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.contents {
+    display: none;
+}
+
+.options-nav:hover .contents {
+    display: block;
+    position: absolute;
+    color: black;
+}
+
+.options-nav:hover {
+    cursor: pointer;
+}
+
+.contents a {
+    display: block;
+    text-decoration: none;
+    min-width: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 40px;
+    color: black;
+    background-color: #f6f8fa;
+    box-shadow: 1px 2px 2px rgb(0 0 0 / 10%), -1px -1px 2px rgb(0 0 0 / 8%);
+}
+
+.contents a:hover {
+    background-color: #dee6ed;
+}
+
+/* main content CSS */
+
+.main-content h2 {
+    text-align: center;
+}
+
+.textarea-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .input-textarea {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.output-textarea {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.input {
+    height: 280px;
+    width: 400px;
+    outline: none;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px 12px;
+    font-weight: 400;
+    font-size: 17px;
+    box-shadow: 1px 4px 9px rgba(0,0,0,0.2);
+}
+
+.output {
+    height: 280px;
+    width: 400px;
+    outline: none;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px 12px;
+    font-weight: 400;
+    font-size: 17px;
+    box-shadow: 1px 4px 9px rgba(0, 0, 0, 0.2);
+}
+
+/* button CSS */
+
+.encoder {
+    background-color: greenyellow;
+    color: black;
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    left: 38%;
+}
+
+.reset {
+    background-color: x;
+    font-size: 16px;
+    border-radius: 10px;
+    line-height: 1.4;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: black;
+    margin-left: 51vw;
+}
