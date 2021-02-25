@@ -1,14 +1,19 @@
+body {
+    background-color: beige;
+}
+
 .heading {
     display: flex;
     justify-content: space-evenly;
     position: sticky;
+    margin: auto;
     top: 0;
     box-shadow: 1px 2px 2px rgb(0 0 0 / 10%), -1px -1px 2px rgb(0 0 0 / 8%);
     align-items: center;
     line-height: 45px;
     text-decoration: none;
     font-size: 18px;
-    background-color: aquamarine;
+    background-color: burlywood;
 }
 
 .logo {
@@ -61,6 +66,10 @@
 
 /* main content CSS */
 
+.main-content {
+    margin-top: 75px;
+}
+
 .main-content h2 {
     text-align: center;
 }
@@ -112,7 +121,12 @@
 
 /* button CSS */
 
-.encoder {
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.encode {
     background-color: greenyellow;
     color: black;
     font-size: 16px;
@@ -120,8 +134,16 @@
     padding: 10px 30px;
     cursor: pointer;
     border-radius: 10px;
-    position: absolute;
-    left: 38%;
+}
+
+.decode {
+    background-color: greenyellow;
+    color: black;
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 .reset {
@@ -132,5 +154,15 @@
     padding: 10px 30px;
     cursor: pointer;
     color: black;
-    margin-left: 51vw;
+}
+
+/* footer CSS */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 3.5rem;
+    text-align: center;
+    background-color: burlywood;
+    font-size: 17px;
 }
