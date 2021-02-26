@@ -24,6 +24,7 @@ body {
 }
 
 .logo-img {
+    display: none;
     position: fixed;
     left: 0.2vw;
     top: 0.5vw;
