@@ -73,9 +73,9 @@ main {
 }
 
 .main-content {
-    margin-top: 75px;
-    background-color: burlywood;
+    margin-top: auto;
     width: 75%;
+    margin-bottom: auto;
 }
 
 .main-content h2 {
