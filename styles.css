@@ -67,12 +67,20 @@ body {
 
 /* main content CSS */
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
 .main-content {
     margin-top: 75px;
+    background-color: burlywood;
+    width: 75%;
 }
 
 .main-content h2 {
     text-align: center;
+    margin-top: 30px;
 }
 
 .textarea-content {
@@ -84,12 +92,16 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .output-textarea {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
 } 
 
 .input {
@@ -125,6 +137,7 @@ body {
 .button {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .encode {
